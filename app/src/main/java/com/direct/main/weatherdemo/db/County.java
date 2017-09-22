@@ -9,7 +9,7 @@ import org.litepal.crud.DataSupport;
 public class County extends DataSupport {
     private int id;//实体的id
     private String countyName;//县的名称
-    private String weatherId;//县的编码
+    private String weatherId;//city天气id
     private int cityId;//城市的id
 
     public int getId() {

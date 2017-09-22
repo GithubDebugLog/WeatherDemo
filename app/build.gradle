@@ -29,6 +29,6 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:+'
     compile 'org.litepal.android:core:+'
     compile 'com.squareup.okhttp3:okhttp:+'
-    compile 'com.google.code.gson:gson:+'
+    compile 'com.google.code.gson:gson:2.7'
     testCompile 'junit:junit:4.12'
 }

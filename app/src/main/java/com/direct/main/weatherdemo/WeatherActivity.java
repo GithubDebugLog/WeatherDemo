@@ -170,7 +170,7 @@ public class WeatherActivity extends AppCompatActivity {
         tilteUpdateTime.setText(updateTime);
         degreeText.setText(degree);
         weatherInfoText.setText(weatherInfo);
-        forecastLayout.removeAllViews();
+        forecastLayout.removeAllViews();//移除
         for (Forecast forecast : weather.forecastList) {
             View view = LayoutInflater.from(this).inflate(R.layout.forecast_item, forecastLayout, false);
             TextView dateText = (TextView) view.findViewById(R.id.data_text);
